@@ -1,0 +1,38 @@
+-----------------------------------------------------------------------------
+***************** Aðaç üzerinde dolaþým programýn Kullanýmý *****************
+-----------------------------------------------------------------------------
+
+Programý açýnca karþýnýza 5 seviyeden oluþan hazýr bir aðaç yapýsý çýkar.
+Klavyenin ok tuþlarý ile bu aðaç üzerinde istediðiniz düðümün üzerine
+gelip bu alana harf, rakam ve birkaç matematiksel operatör girebilirsiniz,
+delete ya da backspace tuþlarýný kullanarak düðümün içeriðini silebilirsiniz.
+Bu verileri girmek için 2 kural vardýr:
+
+     1) Her düðüme en fazla bir karakterlik veri girilebilir. Algoritmanýn
+anlaþýlabilir olmasý için bu þekilde ayarlandý.
+     2) Bir düðüme deðer girmeden onun çocuk düðümlerine (ok tuþlarý ile)
+gidemezsiniz.
+
+Verileri girdikten sonra klavyeden ESC tuþuna basarak veri giriþ iþlemini
+sonlandýrabilirsiniz. ESC tuþuna bastýktan sonra aðaç ekrandan silinecektir
+ve sadece sizin girdiðiniz verilerden oluþan aðaç tekrar çizilecektir.
+Yani veri girmediðiniz düðümler çizilmeyecektir. Bundan sonra karþýnýza 5
+seçenekten oluþan bir menü çýkacak. Bunlar;
+
+     1) Aðaç üzerinde PreOrder dolaþým yaparak PreFix liste hazýrlar ve bunu
+yaparken, verinin hangi düðümden alýndýðýný göstermek için listeye her eleman
+eklenmesinde bunu aðaç üzerinde ve liste üzerinde basit bir yanýp/sönme
+animasyonu ile gösterir. Ayrýca bir düðüme gelirken geçtiði yolu da (yeþil
+renk ile) iþaretler.
+     2) 1. seçeneðin aynýsýný PostOrder dolaþým için yapar.
+     3) 1. seçeneðin aynýsýný InOrder dolaþým için yapar.
+     4) Animasyon göstermeden sadece listeleri ekranda görüntüler.
+     5) Programý sonlandýrýr.
+
+-----------------------------------------------------------------------------
+          HALÝL ÝBRAHÝM KALKAN
+Sýnýf   : Bilgisayar Müh. 2. Sýnýf
+No      : 0301.10001
+E-posta : ...
+Web     : ...
+-----------------------------------------------------------------------------
